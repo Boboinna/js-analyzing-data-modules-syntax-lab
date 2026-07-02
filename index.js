@@ -5,7 +5,7 @@ function combineUsers(...args) {
     users: [],
   };
 
-  // for each of the stuff in the args, combine them with
+  // for each of the stuff in the args, combine them with the object's users
   for (let array of args) {
     combinedObject.users = [...combinedObject.users, ...array]; // spread
   }
